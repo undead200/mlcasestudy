@@ -5,9 +5,8 @@
 __pycache__/
 *.pyc
 
-# Ignore heavy dataset and model files
-data/
-models/
+# Ignore virtual environments and cache
+# Note: models/ is included so live cloud deployments (Streamlit Cloud) can load the model artifacts
 
 # Ignore virtual environments
 venv/
